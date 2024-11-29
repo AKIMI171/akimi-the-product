@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akimi The Product</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Animazione per il sottotitolo */
+        @keyframes fadeInOut {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            50% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+        }
+
+        .animated-subtitle {
+            font-size: 1.5rem;
+            color: #9b59b6;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 20px;
+            animation: fadeInOut 3s ease-in-out infinite;
+        }
+
+        .instagram-btn {
+            background-color: #E1306C;
+            color: #fff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            margin: 40px auto;
+            text-align: center;
+            width: 200px;
+            transition: background-color 0.3s ease;
+        }
+
+        .instagram-btn:hover {
+            background-color: #C13584;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Akimi The Product</h1>
+            <nav>
+                <ul>
+                    <li><a href="#ukdrill">UK Drill</a></li>
+                    <li><a href="#trap">Trap</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sottotitolo animato -->
+        <div class="animated-subtitle">
+            I beat cambiano ogni settimana!! Affrettati!!
+        </div>
+
+        <!-- Sezione UK Drill -->
+        <section id="ukdrill" class="beat-section">
+            <h2>UK Drill</h2>
+            <div class="beat-gallery">
+                <div class="beat-card">
+                    <div class="beat-info">
+                        <p class="beat-title">Beat UK Drill 1</p>
+                        <div class="buttons">
+                            <button class="listen-btn">Ascolta</button>
+                            <button class="buy-btn">Compra</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="beat-card">
+                    <div class="beat-info">
+                        <p class="beat-title">Beat UK Drill 2</p>
+                        <div class="buttons">
+                            <button class="listen-btn">Ascolta</button>
+                            <button class="buy-btn">Compra</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione Trap -->
+        <section id="trap" class="beat-section">
+            <h2>Trap</h2>
+            <div class="beat-gallery">
+                <div class="beat-card">
+                    <div class="beat-info">
+                        <p class="beat-title">Beat Trap 1</p>
+                        <div class="buttons">
+                            <button class="listen-btn">Ascolta</button>
+                            <button class="buy-btn">Compra</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="beat-card">
+                    <div class="beat-info">
+                        <p class="beat-title">Beat Trap 2</p>
+                        <div class="buttons">
+                            <button class="listen-btn">Ascolta</button>
+                            <button class="buy-btn">Compra</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottone Instagram -->
+        <a href="https://www.instagram.com/il_tuo_profilo" class="instagram-btn" target="_blank">
+            Seguimi su Instagram
+        </a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Akimi The Product | Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+</html>
